@@ -68,7 +68,7 @@ const App = () => {
 
       const key = process.env.NODE_ENV === 'development'
         ? process.env.REACT_APP_LOCATION_IQ_KEY
-        : process.env.REACT_APP_LOCATION_IQ_KEY;
+        : process.env.LOCATION_IQ_KEY;
 
       fetch(`https://eu1.locationiq.com/v1/search.php?key=${key}&q=${place}&format=json`)
         .then((res) => res.json())
@@ -100,7 +100,7 @@ const App = () => {
         <h1>{date.toDateString()}</h1>
 
         <button
-          disabled
+          // disabled
           type="button"
           onClick={() => setPlaceInput((prev) => {
             if (!prev) setDateInput(false);
