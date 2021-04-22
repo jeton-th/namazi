@@ -100,7 +100,7 @@ const App = () => {
         <h1>{date.toDateString()}</h1>
 
         <button
-          // disabled
+          disabled
           type="button"
           onClick={() => setPlaceInput((prev) => {
             if (!prev) setDateInput(false);
