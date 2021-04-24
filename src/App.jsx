@@ -42,8 +42,8 @@ const App = () => {
       sunset,
       nauticalDusk,
     } = selectedDateTimes;
-    const halfAfterNoon = (sunset - solarNoon) / 2;
-    const asr = new Date(solarNoon.getTime() + halfAfterNoon);
+    // const halfAfterNoon = (sunset - solarNoon) / 2;
+    // const asr = new Date(solarNoon.getTime() + halfAfterNoon);
     const nextDayDawn = nextDayTimes.nauticalDawn;
     const halfNight = (nextDayDawn - sunset) / 2;
     const midnight = new Date(sunset.getTime() + halfNight);
@@ -52,7 +52,7 @@ const App = () => {
       ['Fajr', nauticalDawn],
       ['Sunrise', sunrise],
       ['Dhuhr', solarNoon],
-      ['Asr', asr],
+      // ['Asr', asr],
       ['Maghrib', sunset],
       ['Isha', nauticalDusk],
       ['Midnight', midnight],
