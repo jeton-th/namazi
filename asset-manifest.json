@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/namazi/static/css/main.c4d08944.chunk.css",
+    "main.js": "/namazi/static/js/main.3bec179c.chunk.js",
+    "main.js.map": "/namazi/static/js/main.3bec179c.chunk.js.map",
+    "runtime-main.js": "/namazi/static/js/runtime-main.0009eba6.js",
+    "runtime-main.js.map": "/namazi/static/js/runtime-main.0009eba6.js.map",
+    "static/js/2.591d31c9.chunk.js": "/namazi/static/js/2.591d31c9.chunk.js",
+    "static/js/2.591d31c9.chunk.js.map": "/namazi/static/js/2.591d31c9.chunk.js.map",
+    "index.html": "/namazi/index.html",
+    "static/css/main.c4d08944.chunk.css.map": "/namazi/static/css/main.c4d08944.chunk.css.map",
+    "static/js/2.591d31c9.chunk.js.LICENSE.txt": "/namazi/static/js/2.591d31c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0009eba6.js",
+    "static/js/2.591d31c9.chunk.js",
+    "static/css/main.c4d08944.chunk.css",
+    "static/js/main.3bec179c.chunk.js"
+  ]
+}
