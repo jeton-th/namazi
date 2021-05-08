@@ -33,12 +33,14 @@ const App = () => {
     const nextDay = new Date(date);
     nextDay.setDate(nextDay.getDate() + 1);
     const { latitude, longitude } = coords;
+    SunCalc.addTime(145, 'antiAsr', 'asr');
     const selectedDateTimes = SunCalc.getTimes(date, latitude, longitude);
     const nextDayTimes = SunCalc.getTimes(nextDay, latitude, longitude);
     const {
       nauticalDawn,
       sunrise,
       solarNoon,
+      asr,
       sunset,
       nauticalDusk,
     } = selectedDateTimes;
@@ -52,7 +54,7 @@ const App = () => {
       ['Fajr', nauticalDawn],
       ['Sunrise', sunrise],
       ['Dhuhr', solarNoon],
-      // ['Asr', asr],
+      ['Asr', asr],
       ['Maghrib', sunset],
       ['Isha', nauticalDusk],
       ['Midnight', midnight],
